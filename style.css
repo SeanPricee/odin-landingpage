@@ -18,7 +18,18 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
-    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.awesome-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -34,13 +45,19 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-left: 16px;
+    margin-left: 175px;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 12px;
-    margin-right: 16px;
+    margin-right: 175px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 #main-text {
@@ -54,7 +71,16 @@ ul {
     font-size: 18px;
 }
 
-#dogs {
-    width: 400px;
-    height: 0%;
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+   color: #f9faf8;
+   background-color: #3882F6;
+   border: solid #3882F6;
+   border-radius: 3px;
+   width: 100px;
+   padding: 8px;
 }
