@@ -14,6 +14,7 @@ body {
     height: 65px;
 }
 
+
 .awesome {
     background-color: #1F2937;
     color: #f9faf8;
@@ -74,6 +75,14 @@ a {
 .info {
     display: flex;
     justify-content: center;
+
+}
+
+#info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .sign-up {
