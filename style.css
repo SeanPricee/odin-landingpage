@@ -84,6 +84,7 @@ a {
 .info {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 #info-header {
@@ -105,7 +106,17 @@ a {
 
 .info-content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 20px;
+}
+
+.info-content p {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
