@@ -151,6 +151,8 @@ a {
 .sign-up-card {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     color: #f9faf8;
     background-color: #3882F6;
     margin: 75px;
@@ -171,14 +173,17 @@ a {
 }
 
 .sign-up-left {
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .sign-up-button {
-    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9faf8;  
     background-color: #3882F6;
-    border: solid #f9faf8;
-    border-radius: 3px;
+    border: solid #f9faf8;  
+    border-radius: 10px;
     width: 100px;
-    padding: 8px;
+    height: 50px;
+    margin-right: 100px;
 }
