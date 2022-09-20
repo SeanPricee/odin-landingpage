@@ -131,12 +131,54 @@ a {
     font-weight: lighter;
     color: #1F2937;
     width: 800px;
+    margin-bottom: 3px;
 }
 
 #quote-name {
+    margin-top: 3px;
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
     padding-right: 275px;
     align-self: flex-end;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-card {
+    display: flex;
+    flex-direction: row;
+    color: #f9faf8;
+    background-color: #3882F6;
+    margin: 75px;
+    padding: 25px;
+    border-radius: 8px;
+    width: 1000px;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.sign-up-text {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.sign-up-left {
+    padding-left: 100px;
+}
+
+.sign-up-button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border: solid #f9faf8;
+    border-radius: 3px;
+    width: 100px;
+    padding: 8px;
 }
